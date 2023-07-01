@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: #fff url('../imagens/bg.png');
+    margin: 15px;
+}
+
+#container{
+    background: #ede9cc;
+    margin: 0 auto;
+}
+
+#topo{
+    background: #dbcd87;
+    height: 15.4em; /* Seja proporcional ao tamanho do texto */
+    min-height: 250px; /* Altura mínima */
+    position: relative;
+}
+
+#area-logo{
+    background: url('../imagens/topo-imagem-principal.png') no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute; /* Para ficar um sobre o outro */
+    /* Para ficar na esquerda */
+    top: 0;
+    left: 0;
+}
+
+#area-menu{
+    background: url('../imagens/topo-imagem-lateral.png');
+    width: 440px;
+    height: 250px;
+    position: absolute; /* Para ficar um sobre o outro */
+    /* Para ficar na direita */
+    top: 0;
+    right: 0;
+}
