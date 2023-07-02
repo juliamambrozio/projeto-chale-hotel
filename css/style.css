@@ -19,6 +19,8 @@ body{
     
 }
 
+/*---- TOPO ----*/
+
 #topo{
     background: #dbcd87;
     height: 15.4em; /* Seja proporcional ao tamanho do texto */
@@ -98,3 +100,37 @@ a{
     text-decoration: underline;
    
 }
+
+/*---- BARRA DE NAVEGAÇÃO VERTICAL ----*/
+
+#menu{
+    margin-top: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
+
+}
+
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
